@@ -1,0 +1,29 @@
+[project]
+name = "ondasinu88-sinesoothe"
+version = "0.1.0"
+description = "Dynamic resonance suppressor and spectral de-harshing engine."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "librosa",
+  "numpy",
+  "scipy",
+  "soundfile",
+  "matplotlib",
+  "click",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest",
+  "ruff",
+]
+
+[project.scripts]
+sinesoothe = "sinesoothe.cli:cli"
+
+[tool.ruff]
+line-length = 88
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
