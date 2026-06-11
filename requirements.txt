@@ -6,3 +6,6 @@ matplotlib
 click
 pytest
 ruff
+streamlit
+plotly
+pandas
