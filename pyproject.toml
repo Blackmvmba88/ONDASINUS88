@@ -11,6 +11,9 @@ dependencies = [
   "soundfile",
   "matplotlib",
   "click",
+  "streamlit",
+  "plotly",
+  "pandas",
 ]
 
 [project.optional-dependencies]
